@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/0cf3687c78.js"
+            crossorigin="anonymous"></script>
+        <link rel="shortcut icon" href="image/iconoPestania.ico"
+            type="image/x-icon">
+        <title>Encriptador de Texto</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </head>
+
+    <body>
+
+        <div class="contenedorPadre">
+
+            <div class="contenedorCentral">
+
+                <div class="contenedorIzquierdo">
+
+                    <div class="logo">
+                        <p class="logo"><span style="--item:1"><img
+                                    src="image/Logo.png" alt=""></span></p>
+                    </div>
+
+                    <div class="entradaTexto">
+                        <textarea name="textAreaIzq" class="textAreaIzq"
+                            id="textAreaIzq" cols="30" rows="13"
+                            placeholder="Ingrese el texto aquí"></textarea>
+                    </div>
+
+                    <div class="advertencias">
+                        <p class="advertencia"><i class="fa-solid
+                                fa-circle-exclamation"></i> Solo letras
+                            minúsculas y sin acentos </p>
+                    </div>
+
+                    <div class="contenedorBotonesIzquierdo">
+                        <input type="button" value="Encriptar" class="boton
+                            encriptar" onclick="encriptar()">
+                        <input type="button" value="Desencriptar" class="boton
+                            desencriptar" onclick="desencriptar()">
+                    </div>
+
+                </div>
+
+                <div class="contenedorDerecho">
+
+                    <div id="salidaDetexto" class="salidaDetexto">
+                        <textarea name="" id="textAreaDer" class="textAreaDer"
+                            cols="30" rows="7"></textarea>
+                    </div>
+
+                    <div id="contenedorBotonesDerecho"
+                        class="contenedorBotonesDerecho">
+                        <input type="button" value="Copiar" class="boton copiar"
+                            onclick="copy()">
+                    </div>
+
+                    <div id="sinMensaje" class="sinMensaje">
+                        <img src="image/Persona.png" alt="" class="dibujo">
+                        <p class="textoSinMensaje1">Ningún mensaje<br>fue
+                            encontrado</p>
+                        <p class="textoSinMensaje2">Ingresa el texto que desees
+                            encriptar <br> o desencriptar.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <footer>
+
+            <div class="footerMain">
+
+                <div class="designed">
+                    <p>© Todos los derechos reservados a <span
+                            class="nameDesigned">Josttin Mendez</span> </p>
+                </div>
+
+            </div>
+
+        </footer>
+
+        <script src="scripts/script.js"></script>
+
+    </body>
+
+
+</html>
