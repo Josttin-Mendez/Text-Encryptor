@@ -1,8 +1,4 @@
-![WhatsApp Image 2023-04-02 at 5 27 24 PM](https://user-images.githubusercontent.com/112291940/229388730-9daec42a-df61-4001-9d65-11d247d02f9b.jpeg)
 # Encriptador de Texto | Challenge ONE - Oracle Next Education
-
-Link del proyecto al final ⬇
-
 ---
 
 Este es el primer Challenge del programa ONE - Oracle Next Education, donde se nos solicitó hacer un encriptador de texto, donde se podrá intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
@@ -35,5 +31,5 @@ Las "llaves" de encriptación que se utilizaron son las siguiente:
 
 ---
 
-[**Ir a la página**](https://github.com/Esteban-M1000)
+![WhatsApp Image 2023-04-02 at 5 27 24 PM](https://user-images.githubusercontent.com/112291940/229388730-9daec42a-df61-4001-9d65-11d247d02f9b.jpeg)
 ---
