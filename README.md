@@ -5,7 +5,7 @@ Este es el primer Challenge del programa ONE - Oracle Next Education, donde se n
 
 ---
 
-Las "llaves" de encriptación que se utilizaron son las siguiente:   
+Las "llaves" de encriptación que se utilizaron son las siguiente:    
   
   - La letra "e" es convertida para `"enter"`
   - La letra "i" es convertida para `"imes"`
